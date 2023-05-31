@@ -25,8 +25,8 @@ React+Vite crea paginas SPA (Single Page Application) [mas informacion](https://
 </html>
 ```
 3. En la carpeta `src` creamos la carpeta con el nombre de la pagina, en este caso, yo comencé con la pagina `about`
-4. Copiamos el `index.html` y lo pegamos dentro de la carpeta `about`
-5. Creamos un archivo llamado `about.jsx` dentro de la carpeta about y colocamos este cogido
+4. Copiamos el `index.html` y lo pegamos dentro de la carpeta `about` 
+5. Creamos un archivo llamado `about.jsx` dentro de la carpeta about, modificamos la ruta del sript en el index.html, para colocar `./about.jsx` y colocamos este codigo:
 ```
 import React from 'react'
 import  ReactDOM  from 'react-dom'
